@@ -1,0 +1,10 @@
+target/
+**/*.rs.bk
+
+# vim swap files
+*.swp
+*.swo
+
+# intellij idea project files
+.idea/
+*.iml

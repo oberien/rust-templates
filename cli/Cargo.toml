@@ -1,0 +1,14 @@
+[package]
+name = "{{(name)}}"
+version = "0.1.0"
+authors = [{{toml-escape author}}]
+
+[dependencies]
+error-chain = "0.10"
+log = "0.3"
+env_logger = "0.4"
+time = "0.1"
+serde_derive = "0.9"
+serde = "0.9"
+toml = "0.3"
+argparse = "0.2"
